@@ -38,6 +38,7 @@ text-align: center;
 font-size: 31px;
 color: #fff;
 display: block;
+text-transform: lowercase;
 background: url(../images/logo.png) left bottom no-repeat;
 }
 
