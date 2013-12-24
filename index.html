@@ -1,40 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Coming Soon</title>
-<link href="tools/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="tools/jquery.min.js"></script> 
-<script type="text/javascript" src="tools/cufon-yui.js"></script>
-<script type="text/javascript" src="tools/Bebas_400.font.js"></script>
-<script type="text/javascript" src="tools/Bell_Gothic_Std_300.font.js"></script>
-<script type="text/javascript">
-	Cufon.replace('a.logo', {fontFamily: 'Bebas'});
-	Cufon.replace('a.logo span', {fontFamily: 'Bell Gothic Std'});
-</script>
-
+    <link rel='stylesheet' href='style.css' />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<div class="main_container">
-	<div class="header">
-		<a class="logo" href="http://www.manishekhawat.com">manishekhawat<span></span></a>
-	</div>
-	<div class="content">
-		<h1>hello.<span>I'm Manish Shekhawat</span></h1>
-		<div class="right_side">
-			<p><a href="#">manishekhawat@yahoo.co.in</a></p>
-			<ul class="s_icons">
-				<li class="fb"><a href="http://www.facebook.com/manishekhawat"></a></li>
-				<li class="tw"><a href="http://twitter.com/manishekhawat"></a></li>
-				<li class="in"><a href="http://in.linkedin.com/in/manishekhawat"></a></li>
-			</ul>
-		</div>
-	</div>
-	<!--<form class="email">
-		<input type="text" class="field" onfocus="if(this.value=='Get Notified (Email Address)') this.value='';" onblur="if(this.value=='' || this.value==' ') this.value='Get Notified (Email Address)';" value="Get Notified (Email Address)" />
-		<input type="button" class="submit" />
-	</form>-->
-	
-</div>
+    <section>
+        <h1>Manish's New Year</h1>
+        <div>happening in just</div>
+        <section class="countdown">
+            <div>
+                <div id="d"></div>
+                days</div>
+            <div>
+                <div id="h"></div>
+                hours</div>
+            <div>
+                <div id="m"></div>
+                min</div>
+            <div>
+                <div id="s"></div>
+                sec</div>
+        </section>
+
+        <ol>
+            <li>
+                Starting this year, I will try :
+            </li>
+
+        </ol>
+        <h1>53 things to do before I turn 35</h1>
+
+
+    </section>
+
+    <script src='script.js'></script>
 </body>
 </html>
