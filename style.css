@@ -5,6 +5,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #222;
+    animation: color-animation 3s infinite linear alternate;
 }
 
 h1 {
@@ -55,3 +56,18 @@ a:link {text-decoration:none;}
 a:visited {text-decoration:none;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
+      
+@keyframes color-animation {
+    0% {
+       background: #ad1457;
+    }
+    50% {
+       background: #6a1b9a;
+    } 
+    100% {
+       background: #bbdefb
+    } 
+ }
+
+
+       
