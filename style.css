@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 body {
-    background: #ad1457;
+    background: #e4ffde;
     font-family: sans-serif, monospace, cursive, fantasy;
     font-weight: 300;
     color: #222;
@@ -60,13 +60,13 @@ a:active {text-decoration:underline;}
       
 @keyframes color-animation {
     0% {
-       background: #ad1457;
+       background: #e4ffde;
     }
     50% {
-       background: #6a1b9a;
+       background: #ffd3fd;
     } 
     100% {
-       background: #bbdefb
+       background: #ffe7d3
     } 
  }
 
