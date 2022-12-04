@@ -5,6 +5,9 @@ body {
     font-family: sans-serif, monospace, cursive, fantasy;
     font-weight: 300;
     color: #222;
+}
+
+.animation {
     animation: color-animation 3s infinite linear alternate;
 }
 
