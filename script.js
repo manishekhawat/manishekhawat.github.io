@@ -36,6 +36,10 @@ function update() {
     $hours.innerHTML = pad(hours, 2);
     $minutes.innerHTML = pad(minutes, 2);
     $seconds.innerHTML = pad(seconds, 2);
+    
+    if(animationTimeout){
+        clearTimeout(animationTimeout);
+    }
 }
 
 // Immediately update the HTML.
@@ -46,7 +50,8 @@ update();
 setInterval(update, 1000); // 1000 milliseconds = 1 second
 
 var body = document.body;
-body.classList.add("animation");
+
+var animationTimeout = setTimeout(function () {body.classList.add("animation");} , 1000); 
 
 // This looks much better with leading zeros, don't you agree?
 // If num has less than size digits, add enough 0s to the front.
