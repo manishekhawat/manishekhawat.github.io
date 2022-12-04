@@ -45,6 +45,9 @@ update();
 // Now update our number elements every 1 second.
 setInterval(update, 1000); // 1000 milliseconds = 1 second
 
+var body = document.body;
+body.classList.add("animation");
+
 // This looks much better with leading zeros, don't you agree?
 // If num has less than size digits, add enough 0s to the front.
 function pad(num, size) {
