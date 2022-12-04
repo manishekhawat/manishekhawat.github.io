@@ -1,11 +1,11 @@
 * { box-sizing: border-box; }
 
 body {
-    background: #ff9999;
+    background: #ad1457;
     font-family: sans-serif, monospace, cursive, fantasy;
     font-weight: 300;
     color: #222;
-    animation: color-animation 3s infinite linear alternate;
+    animation: color-animation 5s infinite linear alternate;
 }
 
 h1 {
@@ -27,6 +27,7 @@ section > div {
 section > div > div {
     background: white;
     padding: 8px;
+    width: 40px;
     font-size: 1.2em;
 }
 
