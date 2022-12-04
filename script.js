@@ -49,6 +49,6 @@ setInterval(update, 1000); // 1000 milliseconds = 1 second
 // If num has less than size digits, add enough 0s to the front.
 function pad(num, size) {
     var s = num + "";
-    while (s.length < size) s = "0" + s;
+    if (s.length < size) s = "0" + s;
     return s;
 }
