@@ -2,7 +2,7 @@
 
 body {
     background: #ff9999;
-    font-family: serif, sans-serif, monospace, cursive, fantasy;
+    font-family: sans-serif, monospace, cursive, fantasy;
     font-weight: 300;
     color: #222;
     animation: color-animation 3s infinite linear alternate;
