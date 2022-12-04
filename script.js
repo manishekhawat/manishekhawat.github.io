@@ -38,8 +38,16 @@ function update() {
     $seconds.innerHTML = pad(seconds, 2);
     
     if(animationTimeout){
-        clearTimeout(animationTimeout);
+        const bodyHasClass = document.body.classList.contains(
+            'animation'
+           );
+           if(bodyHasClass) {
+            clearTimeout(animationTimeout);
+            animationTimeout = null;
+           }
     }
+
+
 }
 
 // Immediately update the HTML.
@@ -51,7 +59,7 @@ setInterval(update, 1000); // 1000 milliseconds = 1 second
 
 var body = document.body;
 
-var animationTimeout = setTimeout(function () {body.classList.add("animation");} , 1000); 
+var animationTimeout = setTimeout(function () { body.classList.add("animation");} , 5000); 
 
 // This looks much better with leading zeros, don't you agree?
 // If num has less than size digits, add enough 0s to the front.
